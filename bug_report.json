@@ -1,61 +1,35 @@
-**Bug_id**: 1
-
-**Title**: When you zoom in the widget, a white dash line appears and disappears for a second
-
-**Severity**: Major
-
-**Priority**: High
-
-**Environment**: 1)Redmi Note 7, Android 10 QKQ1 MIUI Global 12.5.1
-
-2) Xiaomi Redmi Note 8 Pro, Android 10 QP1A.190711.020, MIUI  global 12.0.8 Stable
-
-3)Redmi Note 8 Pro MIUI 12.5.7 Stable Android 11 RP1A.200720.011
-
-4)Xiaomi Mi 9SE (MIUI Global 12.5.1) Android 11 RKQ1.200826.002
-
-5)Xiaomi Redmi 9, Android 10 (MIUI Global 12.0.4) QP1A.190711.020
-
-6)Xiaomi MI 9 (MIUI Global 12.5.1) Android 11 RKQ1.200826.002
-
-7)Redmi Note 7 MIUI 12.5.1.0 android 10 QKQ1.190910.002
-
-8)Xiaomi Redmi Note 7 MIUI 12.5.3, Android QKQ1.190910.002
-
-9) Xiaomi Redmi Note 9 Pro, Android 11 RKQ1.200826.0026, MIUI Global 12.5.5
-
-10) Oneplus Nord 2 Android 11
-
-11)Mi Note 10 Lite MIUI Global 12.5.7 11 RKQ1. 200826.002
-
-12)Xiaomi Redmi Note 9 Pro, Android 11 RKQ1.200826.002, MIUI Global 12.5.5
-
-13) Huawei mate 10 lite Android 8, EMUI 8 RNE-L21
-
-14) Xiaomi Redmi Note 8, Android 11 RP1A.200720.011(MIUI Global 12.5.7)
-
-15) Huawei P20 Lite, Android 9, EMUI 9.1.0ё
-
-16) Redmi 9C NFC Android 10 QP1A. 190711.020 MIUI Global 12.0.13
-
-17) Pixel 4, Android 11
-
-18) Xiaomi Redmi Note 7 ; android 9 PKQ1.180904.001
-
-MIUI  global 11.0.6.0
-
-**Precondition**: 1) Open the "Android grit test" app
-
-2) Tap once on the "Add widget" button
-
-**STR**:
-
-1) Tap on the widget
-
-2) Resize widget:  pull right, left, down, up
-
-**AR**: When resizing the widget, the white dash lines are not displayed on the widget outline: top, bottom, left, right
-
-**ER**: When resizing the widget, the white dash lines will be displayed on the widget outline: top, bottom, left, right
-
-**Attachments**: [https://drive.google.com/file/d/1k36lCGmZcThJTb7NZ7JvwiOUgKy5J0UE/view?usp=sharing](https://drive.google.com/file/d/1k36lCGmZcThJTb7NZ7JvwiOUgKy5J0UE/view?usp=sharing)
+{
+"Bug_id": "1",
+"Title": "When you zoom in the widget, a white dash line appears and disappears for a second",
+"Severity": "Major",
+"Priority": "High",
+"Environment": 
+"1)Redmi Note 7, Android 10 QKQ1 MIUI Global 12.5.1",
+"2) Xiaomi Redmi Note 8 Pro, Android 10 QP1A.190711.020, MIUI  global 12.0.8 Stable",
+"3)Redmi Note 8 Pro MIUI 12.5.7 Stable Android 11 RP1A.200720.011",
+"4)Xiaomi Mi 9SE (MIUI Global 12.5.1) Android 11 RKQ1.200826.002",
+"5)Xiaomi Redmi 9, Android 10 (MIUI Global 12.0.4) QP1A.190711.020",
+"6)Xiaomi MI 9 (MIUI Global 12.5.1) Android 11 RKQ1.200826.002",
+"7)Redmi Note 7 MIUI 12.5.1.0 android 10 QKQ1.190910.002",
+"8)Xiaomi Redmi Note 7 MIUI 12.5.3, Android QKQ1.190910.002",
+"9) Xiaomi Redmi Note 9 Pro, Android 11 RKQ1.200826.0026, MIUI Global 12.5.5",
+"10) Oneplus Nord 2 Android 11",
+"11)Mi Note 10 Lite MIUI Global 12.5.7 11 RKQ1. 200826.002",
+"12)Xiaomi Redmi Note 9 Pro, Android 11 RKQ1.200826.002, MIUI Global 12.5.5",
+"13) Huawei mate 10 lite Android 8, EMUI 8 RNE-L21",
+"14) Xiaomi Redmi Note 8, Android 11 RP1A.200720.011(MIUI Global 12.5.7)",
+"15) Huawei P20 Lite, Android 9, EMUI 9.1.0",
+"16) Redmi 9C NFC Android 10 QP1A. 190711.020 MIUI Global 12.0.13",
+"17) Pixel 4, Android 11",
+"18) Xiaomi Redmi Note 7 ; android 9 PKQ1.180904.001",
+"19) MIUI  global 11.0.6.0",
+"Precondition": 
+"1) Open the Android grit test app",
+"2) Tap once on the Add widget button",
+"STR":
+"1) Tap on the widget",
+"2) Resize widget:  pull right, left, down, up",
+"AR": "When resizing the widget, the white dash lines are not displayed on the widget outline: top, bottom, left, right",
+"ER": "When resizing the widget, the white dash lines will be displayed on the widget outline: top, bottom, left, right",
+"Attachments": "[https://drive.google.com/file/d/1k36lCGmZcThJTb7NZ7JvwiOUgKy5J0UE/view?usp=sharing](https://drive.google.com/file/d/1k36lCGmZcThJTb7NZ7JvwiOUgKy5J0UE/view?usp=sharing)"
+}
